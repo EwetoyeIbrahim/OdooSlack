@@ -1,4 +1,4 @@
-# Odoo-Slack
+# OdooSlack
 
 This module simply accepts message, and slack Id to perform hand-shakes between odoo and slack.  
 Note that: requests library, which as of now, is not shipped with python has to be installed on the system.
