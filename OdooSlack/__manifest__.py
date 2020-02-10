@@ -4,15 +4,7 @@
 
     'summary': 'Odoo to Slack Notification integration',
 
-    'description': 
-        '''
-        This module simply accepts message, and slack Id to perform hand-shakes between odoo and slack.
-        Kindly note that: requests library, which as of now, is not shipped with python has to be installed on the system.
-        pip install requests.
-        
-        See an implementation example in the README file at https://github.com/EwetoyeIbrahim/OdooSlack
-        ''',
-
+    
     'author': 'Medsaf.com, Ewetoye Ibrahim',
     
     'website': 'https://github.com/EwetoyeIbrahim/OdooSlack',
