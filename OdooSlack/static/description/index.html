@@ -22,9 +22,14 @@ It is currently best suited for automated actions and server action</p>
 #  - log: log(message, level='info'): logging function to record debug information in ir.logging table
 #  - Warning: Warning Exception to use with raise
 # To return an action, assign: action = {...}
-odoo_slack = env[&quot;odoo.slack&quot;] # Ops team Webhook
+
+odoo_slack = env[&quot;odoo.slack&quot;]
+
+# change to your slack webhook url
 slack_hook = &quot;https://hooks.slack.com/services/T4EXXXXXX/BM4XXXXXX/w436XXXXXXXXXXXXXXXXXXXX&quot; # Slack Webhook
+
 message = '''Sales Order {0},\n {1} just placed an order worth {2}'''.format(record.name, record.partner_id.name, record.amount_total)
+
 odoo_slack.slackup(slack_hook, message)
 </code></pre>
 </body>
