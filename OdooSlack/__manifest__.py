@@ -4,6 +4,7 @@
 
     'summary': 'Odoo to Slack Notification integration',
 
+    'license': 'LGPL-3',
     
     'author': 'Medsaf.com, Ewetoye Ibrahim',
     
@@ -17,5 +18,5 @@
 
     'depends': ['base'],
     
-    'images': ['static/description/banner.jpg'],
+    'images': ['static/description/banner.jpg','static/description/icon.png'],
 }
